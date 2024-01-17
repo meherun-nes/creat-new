@@ -289,7 +289,31 @@ background-color: rgba(251, 181, 99, 0.2);
     border: 1px;
     background-color: rgba(251, 181, 99, 0.2);
 }
+/*simpleplace*/
+.simple-place{
+    margin-top: 100px;
+}
+.perfect-place{
+    display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 30px;
+}
+   .get-lost{
+    width: 448px;
+height: 120px;
+color: black;
+font-size: 40px;
+   }
 
+
+.description-place{
+    width: 532px;
+height: 52px;
+top: 5536px;
+
+
+}
 /*responsive media queries for mobile*/
 @media screen and (max-width:600px){
     header{
@@ -301,7 +325,8 @@ background-color: rgba(251, 181, 99, 0.2);
     .popular-tour,
     .flex-container,
     .destination-description,
-    .services {
+    .services,
+    .simple-place {
         flex-direction: column;
     }
     img {
