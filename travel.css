@@ -1,0 +1,106 @@
+/*mulish font*/
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather+Sans&family=Mulish:wght@700&family=Open+Sans:ital,wght@0,800;1,700&family=Work+Sans&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+}
+/*header styles*/
+header{
+    padding: 53px 127px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-travel{
+    display: flex;
+    gap: 10px;
+}
+img{
+    width: 50px;
+height: 58.01px;
+
+}
+.text{
+    flex: 1;
+    font-size: 1.6rem;
+    color: rgba(19, 19, 24, 1);
+}
+span{
+    color: rgba(255, 84, 0, 1);
+}
+/*nav section*/
+
+ul, li{
+    display: flex;
+    gap: 15px;
+    font-size: 1.2rem;
+    color: rgba(66, 66, 71, 1);
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+main h3{
+font-size: 4rem;
+font-weight: 800;
+line-height: 80px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+text-align: center;
+}
+main p{
+font-size: 1rem;
+font-weight: 400;
+text-align: center;
+padding-left: 247px;
+padding-right: 247px;
+}
+.explore-travel{
+    width: 1170px;
+height: 500px;
+border-radius: 16px;
+background: linear-gradient(rgba(19, 19, 24, 1), rgba(19, 19, 24, 0)),url(Images/Group\ 13\ \(1\)\ \(1\).png);
+background-size: cover;
+}
+.explore{
+    padding-left: 185px;
+    padding-right: 185px;
+    padding-bottom: 238px;
+    width: 800px;
+    height: 48px;
+    border-radius: 8px;
+    
+#sea{
+    width: 174px;
+height: 52px;
+top: 16px;
+left: 610px;
+border-radius: 8px;
+gap: 10px;
+}
+}
+.btn-primary{
+    width: 174px;
+height: 52px;
+top: 16px;
+left: 610px;
+border-radius: 8px;
+color:white;
+background-color: rgba(255, 84, 0, 1);
+}
+/*responsive media queries for mobile*/
+@media screen and (max-width:576px){
+    header{
+        padding: 20px;
+    }
+    .hero-travel,
+    nav,
+    main {
+        flex-direction: column;
+    }
+    img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
