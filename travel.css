@@ -380,6 +380,32 @@ rotate: -19.36deg;
 
 }
 /*footer*/
+footer{
+    margin-left: 10%;
+    margin-top: 100px;
+    width: 1440px;
+height: 502px;
+top: 6438px;
+background-color: rgba(19, 19, 24, 0.05);
+justify-content: center;
+}
+.hero-travel1{
+    display: flex;
+    gap: 10px;
+    margin-left: 35%;
+}
+footer p{
+    width: 643px;
+height: 52px;
+top: 1470px;
+margin: 0 auto;
+font-size: 16px;
+font-weight: 400;
+}
+.icon{
+    padding-left: 633px;
+}
+
 /*responsive media queries for mobile*/
 @media screen and (max-width:600px){
     header{
@@ -393,7 +419,8 @@ rotate: -19.36deg;
     .destination-description,
     .services,
     .simple-place,
-    .form {
+    .form,
+    footer {
         flex-direction: column;
     }
     img {
